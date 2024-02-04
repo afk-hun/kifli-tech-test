@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import { ThemeProvider, createGlobalStyle } from "styled-components";
+import { theme } from "./style/theme";
+import NewsLetterSection from "./sections/NewsLetterSection";
+import HeroSection from "./sections/HeroSection";
+
+const GlobalStyle = createGlobalStyle`
+  button {
+    font-weight: 600;
+    font-size: 16px;
+    }
+    html {
+      font-family: 'Poppins', sans-serif;
+    }
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <HeroSection />
+      <NewsLetterSection />
+    </ThemeProvider>
   );
 }
 

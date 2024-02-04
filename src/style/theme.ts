@@ -1,0 +1,321 @@
+export const theme = {
+  breaks: {
+    mediaPoints: {
+      XS: "0px",
+      S: "480px",
+      M: "768px",
+      L: "1024px",
+      XL: "1400px",
+    },
+    hero: {
+      section: {
+        padding: {
+          XS: "32px 0",
+          S: "32px 0",
+          M: "64px 0",
+          L: "64px 0",
+          XL: "64px 0",
+        },
+      },
+      container: {
+        padding: {
+          XS: "0 8px",
+          S: "0 8px",
+          M: "0 16px",
+          L: "0 16px",
+          XL: "0 16px",
+        },
+        maxWidth: {
+          XS: "768px",
+          S: "768px",
+          M: "1400px",
+          L: "1400px",
+          XL: "1400px",
+        },
+        gap: {
+          XS: "32px",
+          S: "32px",
+          M: "64px",
+          L: "64px",
+          XL: "64px",
+        },
+      },
+      contentContainer: {
+        gap: {
+          XS: "16px",
+          S: "16px",
+          M: "26px",
+          L: "26px",
+          XL: "32px",
+        },
+        maxWidth: {
+          L: "910px",
+          XL: "910px",
+        },
+      },
+      title: {
+        size: { XS: "32px", S: "32px", M: "64px", L: "64px", XL: "64px" },
+        lineHeight: { XS: "40px", S: "40px", M: "72px", L: "72px", XL: "72px" },
+      },
+      description: {
+        size: {
+          XS: "18px",
+          S: "18px",
+          M: "20px",
+          L: "20px",
+          XL: "20px",
+        },
+        lineHeight: { XS: "26px", S: "26px", M: "28px", L: "28px", XL: "28px" },
+      },
+      buttonContainer: {
+        gap: {
+          XS: "8px 0",
+          S: "8px 0",
+          M: "0 16px",
+          L: "0 16px",
+          XL: "0 16px",
+        },
+      },
+      button: {
+        width: {
+          XS: "160px",
+          S: "160px",
+          M: "220px",
+          L: "220px",
+          XL: "220px",
+        },
+        height: {
+          XS: "40px",
+          S: "40px",
+          M: "64px",
+          L: "64px",
+          XL: "64px",
+        },
+        padding: {
+          XS: "0 8px",
+          S: "0 8px",
+          M: "0 16px",
+          L: "0 16px",
+          XL: "0 16px",
+        },
+        size: { XS: "14px", S: "14px", M: "16px", L: "16px", XL: "16px" },
+        lineHeight: { XS: "22px", S: "22px", M: "24px", L: "24px", XL: "24px" },
+      },
+      imageButton: {
+        width: {
+          XS: "188px",
+          S: "188px",
+          M: "220px",
+          L: "220px",
+          XL: "220px",
+        },
+        height: {
+          XS: "40px",
+          S: "40px",
+          M: "64px",
+          L: "64px",
+          XL: "64px",
+        },
+        padding: {
+          XS: "0 8px",
+          S: "0 8px",
+          M: "0 16px",
+          L: "0 16px",
+          XL: "0 16px",
+        },
+        size: { XS: "14px", S: "14px", M: "16px", L: "16px", XL: "16px" },
+        lineHeight: { XS: "22px", S: "22px", M: "24px", L: "24px", XL: "24px" },
+      },
+    },
+    newsletter: {
+      section: {
+        padding: {
+          XS: "64px 0",
+          S: "64px 0",
+          M: "80px 0",
+          L: "80px 0",
+          XL: "96px 0",
+        },
+      },
+      container: {
+        padding: {
+          XS: "0 8px",
+          S: "0 8px",
+          M: "0 16px",
+          L: "0 16px",
+          XL: "0 16px",
+        },
+        maxWidth: {
+          XS: "768px",
+          S: "768px",
+          M: "1400px",
+          L: "1400px",
+          XL: "1400px",
+        },
+      },
+      contentContainer: {
+        padding: {
+          XS: "64px 32px",
+          S: "64px 32px",
+          M: "80px 64px",
+          L: "80px 64px",
+          XL: "96px 64px",
+        },
+        gap: {
+          XS: "16px",
+          S: "16px",
+          M: "26px",
+          L: "26px",
+          XL: "26px",
+        },
+      },
+      textContainer: {
+        gap: {
+          XS: "8px",
+          S: "16px",
+          M: "16px",
+          L: "16px",
+          XL: "16px",
+        },
+        maxWidth: {
+          XS: "240px",
+          S: "400px",
+          M: "608px",
+          L: "700px",
+          XL: "700px",
+        },
+      },
+      inputContainer: {
+        padding: {
+          XS: "6px 8px",
+          S: "6px 8px",
+          M: "8px 16px",
+          L: "8px 16px",
+          XL: "8px 16px",
+        },
+        width: {
+          XS: "700px",
+          S: "700px",
+          M: "700px",
+          L: "700px",
+          XL: "700px",
+        },
+        height: {
+          XS: "40px",
+          S: "40px",
+          M: "64px",
+          L: "64px",
+          XL: "64px",
+        },
+      },
+      button: {
+        width: {
+          XS: "102px",
+          S: "102px",
+          M: "130px",
+          L: "130px",
+          XL: "130px",
+        },
+        height: {
+          XS: "40px",
+          S: "40px",
+          M: "64px",
+          L: "64px",
+          XL: "64px",
+        },
+      },
+      input: {
+        fontSize: {
+          SX: "14px",
+          S: "14px",
+          M: "16px",
+          L: "16px",
+          XL: "16px",
+        },
+        lineHeight: {
+          SX: "22px",
+          S: "22x",
+          M: "24px",
+          L: "24px",
+          XL: "24px",
+        },
+        height: {
+          SX: "22px",
+          S: "22px",
+          M: "24px",
+          L: "24px",
+          XL: "24px",
+        },
+      },
+      title: {
+        size: { XS: "24px", S: "24px", M: "36px", L: "36px", XL: "36px" },
+        lineHeight: { XS: "44px", S: "44px", M: "44px", L: "32px", XL: "32px" },
+      },
+      description: {
+        size: {
+          XS: "18px",
+          S: "18px",
+          M: "20px",
+          L: "20px",
+          XL: "20px",
+        },
+        lineHeight: { XS: "26px", S: "26px", M: "28px", L: "28px", XL: "28px" },
+      },
+      inputForm: {
+        gap: {
+          XS: "16px 0",
+          S: "16px 0",
+          M: "0 26px ",
+          L: "0 26px",
+          XL: "0 32px",
+        },
+      },
+    },
+  },
+  dark: {
+    button: {
+      background: "#2c3fa3",
+      backgroundHover: "#3549af",
+      backgroundActive: "#3b51b9",
+      backgroundFocus: "#2c3fa3",
+      backgroundDisable: "#eff0f5",
+      border: "#3549af",
+      shadow: "rgba(44, 63, 163, 0.2)",
+    },
+    icon: {
+      background: "#3549af",
+      backgroundHover: "#3b51b9",
+      backgroundActive: "#7483d0",
+      backgroundFocus: "#3549af",
+      backgroundDisable: "#EFF0F5",
+    },
+    text: {
+      enabled: "#FFFFFF",
+      disabled: "#D2D3E1",
+    },
+  },
+  light: {
+    button: {
+      background: "#FFFFFF",
+      backgroundHover: "#FFFFFF",
+      backgroundActive: "#F4F5F8",
+      backgroundFocus: "#2c3fa3",
+      backgroundDisable: "#eff0f5",
+      border: "#3549af",
+      shadow: "rgba(44, 63, 163, 0.2)",
+    },
+    input: {
+      background: "#FFFFFF",
+      backgroundDisable: "#F4F5F8",
+      colorDisable: "#D2D3E1",
+      border: "#D2D3E1",
+      borderHover: "#E3E3ED",
+      colorPlaceholder: "#7D7F90",
+      colorActive: "#272937",
+    },
+    text: {
+      enabled: "#2C3FA3",
+      disabled: "#D2D3E1",
+    },
+  },
+};
