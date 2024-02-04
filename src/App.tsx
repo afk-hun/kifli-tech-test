@@ -1,5 +1,3 @@
-import "./App.css";
-
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import { theme } from "./style/theme";
 import NewsLetterSection from "./sections/NewsLetterSection";
